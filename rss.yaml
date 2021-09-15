@@ -12,60 +12,44 @@
 #   tags: [tag1, tag2]
 #   filter: "Test"
 
-# Test for wrong url
-# - url: https://example.com
-# - url: https://a.c
-# - url: apple
+# Nieuws
+- url: http://rss.cnn.com/rss/cnn_topstories.rss
+  tags: [CNN]
+  
+- url: http://feeds.reuters.com/reuters/topNews
+  tags: [Reuters]  
+  
+- url: http://feeds.nos.nl/nosnieuwsalgemeen
+  tags: [NOS, Algemeen]
+  
+- url: https://www.reddit.com/r/worldnews/top/.rss
+  tags: [Reddit, World]
+  
+  
+# Leuk
 
-# Blog
-- url: https://feeds.feedburner.com/playpc
-  name: 電腦玩物
-- url: https://feeds.feedburner.com/ruanyifeng
-  name: 阮一峰的网络日志
-- url: https://feeds.feedburner.com/blogspot/gJZg
-  name: Google AI Blog
-- url: https://distill.pub/rss.xml
-  name: Distill
-- url: https://kexue.fm/feed
-  name: 科学空间
-- url: https://lilianweng.github.io/lil-log/feed.xml
-  name: Lil’Log
-- url: https://rsshub.app/leemeng
-- url: https://iyouport.substack.com/feed
-- url: https://stackoverflow.blog/feed/
-  name: Stack Overflow Blog
+- url: http://feeds.nos.nl/nosnieuwsopmerkelijk
+  tags: [NOS, Opmerkelijk]
+  
+- url: http://xkcd.com/atom.xml
+  tags: [xkcd]
+  
+- url: https://chaski.huffpost.com/us/auto/vertical/weird-news
+  tags: [huffpost, Wierd]
+  
+- url: https://www.theguardian.com/mostviewed/rss
+  tags: [Guardian, Most viewed]
+  
+# Cultuur
 
-# Game
-- url: https://gamejilu.com/rss/
-  name: Gamejilu 遊戲筆記
-- url: https://www.4gamers.com.tw/rss/latest-news
-  name: 4gamers
+- url: https://www.theguardian.com/artanddesign/painting/rss
+  tags: [Guardian, Painting]
 
-# News
-- url: https://rss.shab.fun/github/issue/headllines/hackernews-daily
-  name: Hacker News
-- url: https://www.ithome.com.tw/rss
-  name: iThome 新聞
-# - url: https://global.udn.com/rss/news/1020/8662
-#   name: udn 轉角國際
-- url: https://kill-the-newsletter.com/feeds/8l0fpgvxavoua8af.xml
-  name: 中央社日報
-# - url: https://www.twreporter.org/a/rss2.xml
-#   name: 報導者 The Reporter
-
-# Software
-- url: https://feeds.feedburner.com/freegroup
-  name: 免費資源網路社群
-- url: https://feeds.appinn.com/appinns/
-  name: 小众软件
-- url: https://openingsource.org/feed/
-  name: 开源工场
-- url: https://sspai.com/feed
-  name: 少数派
-
-# Story
-- url: https://rss.shab.fun/wechat/wemp/f395c385-752e-414b-82c8-7536c31ad0fe
-  name: 魔宙
-
-# Twitter
-# - url: https://rsshub.app/twitter/user/quiztime
+# https://feeder.co/add-feed?url=http://rss.cnn.com/rss/edition.rss
+# https://feeder.co/add-feed?url=http://feeds.reuters.com/reuters/topNews
+# https://feeder.co/add-feed?url=http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml
+# https://feeder.co/add-feed?url=http://www.vox.com/rss/index.xml
+# https://feeder.co/add-feed?url=http://feeds.wired.com/wired/index
+# https://rss.nytimes.com/services/xml/rss/nyt/Arts.xml
+# https://chaski.huffpost.com/us/auto/vertical/world-news
+# https://www.theguardian.com/help/insideguardian/2008/apr/11/lateeastereggs
